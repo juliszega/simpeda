@@ -3,7 +3,7 @@
     <script>
       document.write(new Date().getFullYear());
     </script>
-    <a href="<?= $base_url; ?>dashboard">KBS</a>.
+    <a href="<?= $base_url; ?>dashboard">SPKP</a>.
   </strong>
   All rights reserved.
   <div class="float-right d-none d-sm-inline-block">
