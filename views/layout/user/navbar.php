@@ -5,8 +5,8 @@
         <div class="logo">
             <h1 class="text-light">
                 <a href="index.html">
-                    <img src="<?= $base_url; ?>asset_user/img/logo-putih.png" alt="logo">
-                    <small>KBS</small>
+                    <img src="<?= $base_url; ?>asset_user/img/tjg.png" alt="logo">
+                    <small>SPKP</small>
                 </a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
