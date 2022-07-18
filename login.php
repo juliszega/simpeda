@@ -20,7 +20,7 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login | SIMKBS</title>
+    <title>Login | SIMPEDA</title>
     <link rel="shortcut icon" href="asset_user/img/logo-campur.png" type="image/x-icon">
 
     <!-- Font Icon -->
@@ -41,10 +41,10 @@ if (isset($_SESSION['username'])) {
 
                 <div class="signin-form" style="margin-top: 2rem;">
                     <div class="display-flex-center">
-                        <img src="asset_user/img/logo-campur.png" alt="" width="20%">
+                        <img src="asset_user/img/tjg.png" alt="" width="20%">
                         <h4>
-                            Sistem Informasi Manajemen <br>
-                            Kependudukan dan Bantuan Sosial
+                            Sistem Pendataan <br>
+                            KPM PKH
                         </h4>
                     </div>
                     <form action="" method="POST" class="register-form" style="margin-top: 2rem;" id="login-form">
