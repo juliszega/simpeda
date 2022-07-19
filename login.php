@@ -21,7 +21,7 @@ if (isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login | SIMPEDA</title>
-    <link rel="shortcut icon" href="asset_user/img/logo-campur.png" type="image/x-icon">
+    <link rel="shortcut icon" href="asset_user/img/tjg.png" type="image/x-icon">
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="asset_login/fonts/material-icon/css/material-design-iconic-font.min.css">
