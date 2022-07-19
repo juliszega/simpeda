@@ -156,12 +156,12 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-7 text-center">
                     <h2 style="font-size: 1.5rem;">Klasifikasi Bantuan</h2>
-                    <p>
+                    <!-- <p>
                         Dalam pengklasifikasian bantuan, sistem ini menggunakan kriteria - kriteria yang berdasarkan keputusan
                         Menteri Sosial Republik Indonesia Nomor : 146 / HUK / 2013 tentang penetapan kriteria dan Pendataan Fakir
                         Miskin dan Orang Tidak Mampu terdiri atas 14 (empat belas) kriteria kemiskinan.
 
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/laki@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Laki-laki</a></h4>
-                        <p class="description">Jumlah laki-laki yang berada di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_pria); ?></b> Jiwa</p>
+                        <p class="description">Jumlah laki-laki yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_pria); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -191,7 +191,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/perempuan@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Perempuan</a></h4>
-                        <p class="description">Jumlah perempuan yang berada di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_wanita); ?></b> Jiwa</p>
+                        <p class="description">Jumlah perempuan yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_wanita); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/total@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Total</a></h4>
-                        <p class="description">Jumlah total laki-laki dan perempuan yang berada di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_total); ?></b> Jiwa</p>
+                        <p class="description">Jumlah total laki-laki dan perempuan yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_total); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -223,7 +223,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/belumsekolah@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Belum Sekolah</a></h4>
-                        <p class="description">Jumlah penduduk yang belum sekolah di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_belum_sekolah); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang belum sekolah yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_belum_sekolah); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -239,7 +239,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/sd_1@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Tamat SD/Sederajat</a></h4>
-                        <p class="description">Jumlah penduduk yang tamat SD/Sederajat di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_sd); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang tamat SD/Sederajat yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_sd); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -247,7 +247,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/smp@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">SLTP/Sederajat</a></h4>
-                        <p class="description">Jumlah penduduk yang tamat SLTP/Sederajat di Desa Butu adalah <b><?= mysqli_num_rows($sql_smp); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang tamat SLTP/Sederajat yang terdata di  <b><?= mysqli_num_rows($sql_smp); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -255,7 +255,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/sma@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">SLTA/Sederajat</a></h4>
-                        <p class="description">Jumlah penduduk yang tamat SLTA/Sederajat di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_sma); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang tamat SLTA/Sederajat yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_sma); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -263,7 +263,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/study/d3@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Diploma 1-3</a></h4>
-                        <p class="description">Jumlah penduduk yang Diploma 1-3 di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_diploma); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang Diploma 1-3 yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_diploma); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -271,7 +271,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/study/s1@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Strata 1</a></h4>
-                        <p class="description">Jumlah penduduk yang Strata 1 di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s1); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang Strata 1 yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s1); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -279,7 +279,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/study/s2@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Strata 2</a></h4>
-                        <p class="description">Jumlah penduduk yang Strata 2 di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s2); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang Strata 2 yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s2); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -287,7 +287,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/study/s3@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Strata 3</a></h4>
-                        <p class="description">Jumlah penduduk yang Strata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s3); ?></b> Jiwa</p>
+                        <p class="description">Jumlah penduduk yang Strata yang terdata di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_s3); ?></b> Jiwa</p>
                     </div>
                 </div>
 
@@ -332,6 +332,15 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/belumberkerja@4x-8.png" alt=""></div>
                         <h4 class="title"><a href="">Belum/Tidak Berkerja</a></h4>
                         <p class="description">Jumlah penduduk yang belum/tidak berkerja di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_blmbekerja); ?></b> Jiwa</p>
+                    </div>
+                </div>
+                
+
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/job/petani.png" alt="" class="mt-3 mb-4" width="50%"></div>
+                        <h4 class="title"><a href="">Petani/Pekebun</a></h4>
+                        <p class="description">Jumlah penduduk yang berkerja sebagai Petani/Pekebun di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_petani); ?></b> Jiwa</p>
                     </div>
                 </div>
 
