@@ -21,10 +21,10 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h1>Kependudukan dan Bantuan Sosial</h1>
-                <p style="text-align: justify;">
+                <h1>Pendataan KPM PKH</h1>
+                <!-- <p style="text-align: justify;">
                     Sistem Kependudukan dan Bantuan Sosial atau bisa disingkat KBS merupakan suatu sistem yang dapat mengolah data kependudukan yang berada di <?= $row_profil->nama_desa; ?> menjadi Data Klasifikasi kependudukan dan Data Klasifikasi Bantuan.
-                </p>
+                </p> -->
                 <div>
                     <!-- tombol Lihat Daftar Penerima bantuan -->
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-get-started scrollto">Lihat Daftar Penerima Bantuan</a>
