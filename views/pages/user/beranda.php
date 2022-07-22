@@ -561,7 +561,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                     <div class="icon-box">
                         <div class="icon"><img src="<?= $base_url; ?>asset_user/img/4x/religion/christian.png" alt="" class="p-3" width="50%"></div>
                         <h4 class="title"><a href="">Katolik</a></h4>
-                        <p class="description">Jumlah orang yang memeluk agama Kristen di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_katolik); ?></b> Jiwa</p>
+                        <p class="description">Jumlah orang yang  agama Kristen di <?= $row_profil->nama_desa; ?> adalah <b><?= mysqli_num_rows($sql_katolik); ?></b> Jiwa</p>
                     </div>
                 </div>
 
