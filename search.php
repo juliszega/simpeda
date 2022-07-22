@@ -116,7 +116,7 @@ if (isset($_GET['nik'])) {
                                 Maaf Kami tidak dapat menemukan NIK yang anda cari. 
                                 Data tidak ditemukan dikarenakan tidak terdaftar 
                                 di aplikasi KBS atau ada kesalahan di data kependudukan 
-                                yang didaftarkan di aplikasi KBS.
+                                yang didaftarkan di aplikasi SPKP
                             </p>
                             <a href="beranda" class="btn btn-sm text-light" style="background-color: #042165;">
                                     <span class="fas fa-arrow-alt-circle-left"></span> Kembali</a>
