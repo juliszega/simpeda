@@ -71,9 +71,9 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="dusun" class="col-form-label"><b>Dusun</b></label>
+                                        <label for="dusun" class="col-form-label"><b>Kecamatan</b></label>
                                         <select id="dusun" name="dusun" class="form-control">
-                                            <option value="" hidden>Pilih Dusun</option>
+                                            <option value="" hidden>Pilih Kecamatan</option>
                                             <?php
                                             $result_dusun = $mysqli->query("SELECT * FROM tabel_dusun");
                                             while ($rows_dusun = $result_dusun->fetch_object()) {

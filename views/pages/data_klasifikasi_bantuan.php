@@ -55,7 +55,7 @@ include 'app/post/post_data_kependudukan.php';
                                             <th>Tgl Lahir</th>
                                             <th>Jenis Kelamin</th>
                                             <th>Penghasilan</th>
-                                            <th>Dusun</th>
+                                            <th>Kecamatan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
@@ -81,7 +81,7 @@ include 'app/post/post_data_kependudukan.php';
                                             <th>Tgl Lahir</th>
                                             <th>Jenis Kelamin</th>
                                             <th>Penghasilan</th>
-                                            <th>Dusun</th>
+                                            <th>Kecamatan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
@@ -107,7 +107,7 @@ include 'app/post/post_data_kependudukan.php';
                                             <th>Tgl Lahir</th>
                                             <th>Jenis Kelamin</th>
                                             <th>Penghasilan</th>
-                                            <th>Dusun</th>
+                                            <th>Kecamatan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
@@ -133,7 +133,7 @@ include 'app/post/post_data_kependudukan.php';
                                             <th>Tgl Lahir</th>
                                             <th>Jenis Kelamin</th>
                                             <th>Penghasilan</th>
-                                            <th>Dusun</th>
+                                            <th>Kecamatan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
@@ -183,7 +183,7 @@ include 'app/post/post_data_kependudukan.php';
                                     <th>Jenis Bantuan</th>
                                     <th>Tgl Lahir</th>
                                     <th>Jenis Kelamin</th>
-                                    <th>Dusun</th>
+                                    <th>Kecamatan</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
