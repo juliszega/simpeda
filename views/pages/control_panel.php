@@ -112,7 +112,7 @@ include 'app/post/post_control_panel.php';
     <div class="modal-dialog modal-large modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Form Edit Profil</h4>
+                <h4 class="modal-title">Form Edit Profile</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

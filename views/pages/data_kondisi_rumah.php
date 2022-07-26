@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-12">
                 <a href="input_data_kondisi" class="btn btn-primary">
-                    <i class="fas fa-plus-square"></i> Data Kondisi Rumah
+                    <i class="fas fa-plus-square"></i> Data Kondisi Rumahh
                 </a>
                 <a href="app/print/data_kondisi_rumah.php" target="_BLANK" class="btn btn-success">
                     <i class="fas fa-print"></i> Print

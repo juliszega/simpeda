@@ -46,7 +46,7 @@
                                         <!-- <th>Pendidikan Terakhir</th> -->
                                         <th>Pekerjaan Utama</th>
                                         <th>Penghasilan per Bulan</th>
-                                        <th>Dusun</th>
+                                        <th>Kecamatan</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
